@@ -1,0 +1,16 @@
+youmightnotneedjquery.com
+
+Why use jQuery:
+- fixes "broken" DOM API
+- brevity and clarity
+- easy to use
+- cross-browser support
+- AJAX
+- popularity -> large community to find answers
+
+Why not use jQuery:
+- DOM API is no longer broken
+- may be too heavy a tool to use if you only use a few of the hundreds of methods
+- performance inefficiency if methods used are not the most efficient
+
+vanilla/plain JS -> JS w/o jQuery

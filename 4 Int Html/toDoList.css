@@ -1,0 +1,11 @@
+body {
+	background-image: url(https://wallpaperplay.com/walls/full/5/0/5/89015.jpg);
+	background-size: cover;
+}
+.todos {
+	border: 2px dashed #31a34f;
+	color: #31a34f;
+}
+input[type=checkbox]:checked + label {
+	text-decoration: line-through;
+}

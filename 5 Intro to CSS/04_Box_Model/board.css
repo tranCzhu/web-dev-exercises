@@ -1,0 +1,22 @@
+h1 {
+	text-align: center;
+}
+body table {
+	margin: auto;
+}
+th {
+	/* padding: 50px; */
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+}
+.rd {
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.d {
+	border-bottom: 1px solid black;
+}
+.r {
+	border-right: 1px solid black;
+}

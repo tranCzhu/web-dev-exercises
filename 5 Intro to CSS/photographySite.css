@@ -1,0 +1,15 @@
+img {
+	width: 100px;
+	float: left;
+	width: 30%;
+	margin: 1.66%;
+}
+#headline {
+	font-family: 'Saira Stencil One', cursive;
+	margin-left: 1.66%;
+	margin-bottom: 1.66%;
+	padding-bottom: 10px;
+	border-bottom: 3px solid gray;
+	width: 30%;
+	font-size: 30px;
+}

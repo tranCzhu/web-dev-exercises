@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Guessing Game</title>
+	<link rel="stylesheet" type="text/css" href="colorGame.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<!-- heading -->
+	<div class="heading">
+		THE GREAT
+		<div id="colorData"></div>
+		GUESSING GAME
+	</div>
+	<!-- Game Options -->
+	<div class="p-3 mb-2 bg-light text-dark bar">
+		<button type="button" class="btn btn-outline-success" id="new">New Colors</button>
+		<div id="message"></div>
+		<span class="right-align">
+			<button type="button" class="btn btn-outline-warning" id="easy">Easy</button>
+			<button type="button" class="btn btn-outline-danger" id="hard">Hard</button>
+		</span>
+
+	<!-- color blocks -->
+	<!-- TODO: add margin/padding to these blocks so they don't stick together -->
+	<div id="grid-container">
+		<div class="color-grid" id="grid1"></div>
+		<div class="color-grid" id="grid2"></div>
+		<div class="color-grid" id="grid3"></div>
+		<div class="color-grid" id="grid4"></div>
+		<div class="color-grid" id="grid5"></div>
+		<div class="color-grid" id="grid6"></div>
+	</div>
+
+	<script type="text/javascript" src="colorGame.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#new {
+    margin-left: 5%;
+}
+
+#message {
+    display: inline-block;
+    margin: 0% auto;
+}
+
+.right-align {
+    float: right;
+    margin-right: 5%;
+}
+
+#colorData {
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.color-grid {
+    width: 30%;
+    float: left;
+    padding-bottom: 30%;
+    margin: 1.5%;
+}
+
+#grid-container {
+    margin: 0% auto;
+    max-width: 600px;
+}

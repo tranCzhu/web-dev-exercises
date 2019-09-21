@@ -1,0 +1,13 @@
+h1 {
+	color: #3f9e78;
+}
+li {
+	color: blue;
+	border: 1px dashed #3f9e78;
+	margin: 1rem;
+	position: relative;
+}
+body {
+	background: url(https://wallpaperplay.com/walls/full/f/4/1/255725.jpg);
+	background-size: cover;
+}
